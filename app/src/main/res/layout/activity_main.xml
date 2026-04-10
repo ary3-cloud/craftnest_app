@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+   android:background="#47E91E63"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Craftnest"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:background="@drawable/shape"
+        android:textAlignment="center"
+        android:textSize="30sp"
+
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:text="SignUp"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:backgroundTint="#FAE91E63"
+        android:id="@+id/up"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:text="SignIn"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:backgroundTint="#E91E63"
+        android:id="@+id/pop"
+        />
+
+
+
+</LinearLayout>
