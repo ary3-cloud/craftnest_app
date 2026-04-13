@@ -2,7 +2,9 @@ package com.mary.chuisokogarden
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.textclassifier.TextLinks
 import android.widget.Button
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -31,6 +33,8 @@ class MainActivity : AppCompatActivity() {
             val popIntent= Intent(applicationContext, SignIn::class.java)
             startActivity(popIntent)
         }
+
+
 
 
 
