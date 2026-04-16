@@ -5,6 +5,7 @@ import android.content.Intent
 import android.view.View
 import android.widget.ProgressBar
 import android.widget.Toast
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.loopj.android.http.AsyncHttpClient
@@ -102,9 +103,9 @@ fun loadProducts(url: String, recyclerView: RecyclerView, progressBar: ProgressB
             response: JSONArray
         ) {
             progressBar?.visibility = View.GONE
-            // val productList = ProductAdapter.fromJsonArray(response)
-            // val adapter = ProductAdapter(productList)
-            // recyclerView.adapter = adapter
+             val productList = ProductAdapter.fromJsonArray(response)
+             val adapter = ProductAdapter(productList)
+             recyclerView.adapter = adapter
         }
 
         override fun onFailure(

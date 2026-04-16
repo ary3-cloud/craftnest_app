@@ -27,19 +27,19 @@ class SignIn : AppCompatActivity() {
 //      http://mary.alwaysdata.net/api/getproductdetails
 
 
-        val signinlink=findViewById<TextView>(R.id.signin_link)
-        signinlink.setOnClickListener {
-            val signinlinkIntent= Intent(applicationContext, SignUp::class.java)
-            startActivity(signinlinkIntent)
+        val signuplink=findViewById<TextView>(R.id.signin_link)
+        signuplink.setOnClickListener {
+            val signuplinkIntent= Intent(applicationContext, SignUp::class.java)
+            startActivity(signuplinkIntent)
         }
 
 //        find the edittext buttons by id
 
         val email=findViewById<EditText>(R.id.email)
         val password=findViewById<EditText>(R.id.password)
-        val signinbutton=findViewById<Button>(R.id.pop)
+        val signinbutton=findViewById<Button>(R.id.signin)
         signinbutton.setOnClickListener {
-            val api=" http://mary.alwaysdata.net/api/signin"
+            val api="http://mary.alwaysdata.net/api/signin"
 //            request params is a container used to collect the user details its like form data in js
             val data= RequestParams()
 

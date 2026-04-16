@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:orientation="vertical"
+    app:cardBackgroundColor="#5AD04E7C"
+    app:cardCornerRadius="20dp"
+    android:layout_margin="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/product_name"
+        android:text="product Name"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        />
+
+        <ImageView
+            android:id="@+id/product_photo"
+            android:layout_width="300dp"
+            android:layout_height="255dp"
+            android:paddingLeft="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/bag" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/product_cost"
+            android:layout_height="match_parent"
+            android:text="KES 100"
+            android:textColor="#110312"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/product_description"
+            android:layout_height="match_parent"
+            android:text="This is a great product available now for everyone"
+            android:textColor="#000000"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:id="@+id/purchase"
+            android:layout_height="40dp"
+            android:text="PURCHASE NOW"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:paddingStart="13dp"
+            android:paddingEnd="13dp"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="start"
+            android:backgroundTint="#E91E63"
+            />
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

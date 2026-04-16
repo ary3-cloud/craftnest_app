@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="#48E91E63"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SignUp">
@@ -14,11 +13,118 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sign Up"
-        android:textSize="20sp"
-       android:fontFamily="sans-serif-condensed"
+        android:fontFamily="cursive"
+        android:background="@drawable/signinshape"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"
         android:textAlignment="center"
-        android:textColor="#FFFFFF"
-        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+
         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Username"
+        android:drawableStart="@drawable/person"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif"
+        android:inputType="textPersonName"
+        android:id="@+id/name"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Enter your Email"
+        android:drawableStart="@drawable/email"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:drawableStart="@drawable/phone"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Phone(optional)"
+        android:background="@drawable/edittext"
+       android:inputType="number"
+        android:id="@+id/phone"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="12dp"
+        android:drawableStart="@drawable/eye"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:hint="Enter your Password"
+        android:background="@drawable/edittext"
+        android:inputType="textPassword"
+        android:id="@+id/password"
+        />
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_margin="10dp"
+        android:text="Sign Up"
+        android:paddingLeft="100dp"
+        android:paddingRight="100dp"
+        android:textSize="20dp"
+        android:fontFamily="casual"
+        android:backgroundTint="#6EE91E63"
+        android:id="@+id/signup"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't have an account?"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/signup_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sign In"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#E91E63"
+            />
+
+    </LinearLayout>
 
 </LinearLayout>

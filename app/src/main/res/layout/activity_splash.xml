@@ -6,7 +6,7 @@
     android:id="@+id/main"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:background="#47E91E63"
+    android:background="#66BF2D60"
     android:layout_height="match_parent"
     tools:context=".splash">
 
