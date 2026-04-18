@@ -38,6 +38,17 @@ class MainActivity : AppCompatActivity() {
             startActivity(popIntent)
         }
 
+        val about=findViewById<Button>(R.id.about)
+        about.setOnClickListener {
+            val aboutIntent= Intent(applicationContext, About::class.java)
+            startActivity(aboutIntent)
+        }
+        val speech=findViewById<Button>(R.id.speech)
+        speech.setOnClickListener {
+            val splashIntent= Intent(applicationContext, SpeechToTextActivity::class.java)
+            startActivity(splashIntent)
+        }
+
         val progressBar=findViewById<ProgressBar>(R.id.progressbar)
         val recyclerView=findViewById<RecyclerView>(R.id.recyclerview)
 

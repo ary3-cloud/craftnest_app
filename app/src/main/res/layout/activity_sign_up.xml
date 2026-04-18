@@ -95,6 +95,7 @@
         android:text="Sign Up"
         android:paddingLeft="100dp"
         android:paddingRight="100dp"
+        android:textColor="#FFFFFF"
         android:textSize="20dp"
         android:fontFamily="casual"
         android:backgroundTint="#6EE91E63"

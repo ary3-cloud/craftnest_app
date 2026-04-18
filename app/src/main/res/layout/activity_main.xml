@@ -33,29 +33,65 @@
         android:layout_marginTop="30dp">
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="10dp"
-            android:text="SignUp"
-            android:textSize="20sp"
-            android:fontFamily="casual"
-            android:backgroundTint="#58E91E63"
-            android:id="@+id/up"/>
+            android:id="@+id/up"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#6EE91E63"
+            android:text="Sign Up"
+            android:textAlignment="center"
+            android:layout_margin="4dp"
+            android:textSize="15sp"
+            android:padding="1dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#ffffff"
+            />
 
         <Button
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_margin="10dp"
-            android:text="SignIn"
-            android:textSize="20sp"
-            android:fontFamily="casual"
-            android:backgroundTint="#58E91E63"
-            android:id="@+id/pop"/>
+            android:id="@+id/pop"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#6EE91E63"
+            android:text="Sign In"
+            android:textAlignment="center"
+            android:layout_margin="4dp"
+            android:textSize="15sp"
+            android:padding="1dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#ffffff"/>
+
+        <Button
+            android:id="@+id/about"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#6EE91E63"
+            android:text="About Info"
+            android:textAlignment="center"
+            android:layout_margin="4dp"
+            android:textSize="15sp"
+            android:padding="1dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/speech"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:backgroundTint="#6DE91E63"
+            android:text="Voice Assistant"
+            android:textAlignment="center"
+            android:layout_margin="4dp"
+            android:textSize="15sp"
+            android:padding="1dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="#ffffff"
+            />
+
+
+
+
 
     </LinearLayout>
-
 
     <ProgressBar
         android:layout_width="match_parent"

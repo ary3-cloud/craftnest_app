@@ -59,7 +59,7 @@
         android:layout_margin="10dp"
         android:layout_marginTop="30dp"
         android:padding="10dp"
-        android:backgroundTint="#85E91E63"
+        android:backgroundTint="#6EE91E63"
         android:fontFamily="casual"
         android:text="SignIn"
         android:textSize="20dp"

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About Info"
+        android:background="@drawable/signinshape"
+        android:padding="10dp"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our ecommerce app,a simple and user-friendly platform designed to make online shopping easy and accessible for everyone.Users can quickly sign up to createan account,securely sign in ,and browse a wide range of products with detailed descriptiona and images .Our seamless checkout process allows our customers to pay conviniently through M-Pesa. "
+        android:textSize="16sp"
+       android:textAlignment="textStart"
+        android:padding="15dp"
+        android:id="@+id/textview"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:hint="Type something to speak"
+        android:background="@drawable/edittext"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-condensed"
+        android:inputType="text"
+        android:id="@+id/inputText"
+
+        />
+
+    <Button
+        android:id="@+id/speakButton"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#6DE91E63"
+        android:padding="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Listen"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp" />
+
+
+</LinearLayout>
