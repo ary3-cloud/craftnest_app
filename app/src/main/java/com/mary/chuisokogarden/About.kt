@@ -43,8 +43,8 @@ class About : AppCompatActivity() {
             val textt=abouttext.text.toString()
             tts.speak(textt, TextToSpeech.QUEUE_FLUSH,null,null)
 
-//            val text=inputText.text.toString()
-//            tts.speak(text, TextToSpeech.QUEUE_FLUSH,null,null)
+            val text=inputText.text.toString()
+            tts.speak(text, TextToSpeech.QUEUE_FLUSH,null,null)
 
         }
 
